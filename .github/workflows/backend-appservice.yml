@@ -50,5 +50,5 @@ jobs:
       id: deploy-to-webapp
       uses: azure/webapps-deploy@v2
       with:
-        app-name: todo-app-bkend
+        app-name: az-backend-app
         package: ./NodeJS/github-actions/react-express/api
